@@ -30,16 +30,16 @@ export default function WordCard(props){
             console.log('yeah!')
             setState({...state, guess: '', completed: true})
             }else{
-                console.log('reset, next attempt try again')
+                console.log('next attempt')
                 setState({...state, guess: '' ,attempt: state.attempt +1})
-                console.log('yeah your lose score = %d',state.attempt)
+                console.log('your lose score = %d',state.attempt)
                 scoreLose += 1
                     if(scoreLose == 5){
                         window.location.reload();
                     }
             }
         }
-        //console.log(guess)
+        console.log(guess)
     }
 
  return (
