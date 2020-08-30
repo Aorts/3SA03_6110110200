@@ -8,9 +8,12 @@
   user-select: none;
  }
 
- .activeCard {
-  color: red;
-  background: pink;
- }
+ .activeCard{
+  color:blueviolet;
+  background :blue;
+}
  
+ body{
+  background-color:pink ;
+}
  
