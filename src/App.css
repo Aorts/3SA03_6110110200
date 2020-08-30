@@ -9,11 +9,19 @@
  }
 
  .activeCard{
-  color:blueviolet;
-  background :blue;
+  color:red;
+  background:whitesmoke;
+}
+.App {
+  text-align: center;
 }
  
  body{
-  background-color:pink ;
+  background-color: green ;
+}
+
+.text{
+  text-align: center;
+  align-items: center;
 }
  
